@@ -1,3 +1,7 @@
+body{
+  background-color: #F4F4F4;
+}
+
 .container{
   width: 1200px;
   margin-left: auto;
@@ -21,10 +25,39 @@
 .list{
   display: flex;
   list-style: none;
+  margin: 0%;
 }
 
+.list:active{
+  background-color: #5E5E5E;
+  color: white;
+}
+
+.item-1{
+  margin-top: 10px;
+  padding: 2px;
+}
+
+.item-1:hover{
+  box-shadow: 0px 3px;
+}
+
+
 .item{
-  padding-left: 40px;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding: 3px;
+}
+
+.item:hover{
+  box-shadow: 0px 3px;
+}
+
+.item-0{
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding: 3px;
 }
 
 .header-link{
@@ -41,6 +74,11 @@
   background-color: #00BAFC;
   border: solid 2px #00BAFC;
   border-radius: 3px;
+}
+.header-button:hover{
+  border: solid 3px #00BAFC;
+  background-color: white;
+  color: #00BAFC;
 }
 
 .box{
@@ -61,6 +99,14 @@
   background-color: #00BAFC;
   border: solid 2px #00BAFC;
   border-radius: 5px;
+}
+
+.box-button:hover{
+  background-color: #33C8FD;
+}
+
+.box-button:active{
+  background-color: #66D6FD;
 }
 
 .box-2{
@@ -108,6 +154,7 @@
 }
 
 .page-1-end-button{
+  color: white;
   background-color: #00BAFC;
   width: 140px;
   height: 30px;
@@ -117,6 +164,243 @@
   border-radius: 4px;
 }
 
+.page-1-end-button:hover{
+  background-color: #33C8FD;
+}
+
+.page-1-end-button:active{
+  background-color: #66D6FD;
+}
+
 .page-1-end-link{
   color: blue;
+}
+
+.malumot{
+  text-align: center;
+}
+
+.malumot-h2{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 130%;
+  text-align: center;
+}
+
+.malumot-text{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.item-4{
+  display: flex;
+  font-size: 22px;
+  margin-top: 100px;
+}
+
+.item-4-content{
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.item-5{
+  display: flex;
+  width: 1200px;
+  font-size: 22px;
+  margin-top: 100px;
+}
+
+.item-5-content{
+   width: 1000px;
+   margin-top: 50px;
+}
+
+.page-2-end-button{
+  color: white;
+  background-color: #00BAFC;
+  width: 160px;
+  height: 40px;
+  margin-top: 40px;
+  margin-right: 40px;
+  border: solid 2px #00BAFC;
+  border-radius: 4px;
+}
+
+.page-2-end-button:hover{
+  background-color: #33C8FD ;
+}
+
+.page-2-end-button:active{
+  background-color: #66D6FD;
+}
+
+.button-2{
+  font-size: 30px;
+  text-align: center;
+}
+
+.footer{
+  width: 1500px;
+  height: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background-color: #00BAFC;
+}
+
+.footer-content{
+  text-align: center;
+  color: white ;
+  padding: 15px;
+}
+
+.footer-text{
+  width: 700px;
+  margin-left: 250px;
+}
+
+.buyurtma{
+  width: 300px;
+  height: 180px;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+}
+
+.input{
+  height: 25px;
+  width: 160px;
+}
+
+.xizmat_turlari{
+  width: 170px;
+  height: 30px;
+  color: gray;
+}
+
+.footer-2{
+  display: flex;
+  background-color: #191919;
+  color: white;
+}
+
+.footer-2-text{
+  width: 320px;
+  height: 162px;
+  margin-left: 100px;
+  padding-top: 50px;
+}
+
+.list-6{
+  margin-top: 45px;
+  margin-left: 50px;
+  list-style: none;
+}
+
+.item-6-1{
+  margin-top: 45px;
+  list-style: none;
+}
+
+.item-6{
+  display: flex;
+  padding: 3px;
+}
+
+.item-6:hover{
+  color: #00BAFC;
+}
+
+.item-6:active{
+  color: #33C8FD;
+}
+
+.ilova{
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.page-3-end-button{
+  color: white;
+  background-color: #00BAFC;
+  width: 140px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: solid 2px #00BAFC;
+  border-radius: 4px;
+}
+
+.page-3-end-button:hover{
+  background-color: #33C8FD;
+}
+
+.page-3-end-button:active{
+  background-color: #66D6FD;
+}
+
+.box-2-2{
+  width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.xizmat-malumoti{
+  display: flex;
+  width: 800px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-7{
+  list-style: none;
+  margin-left: -40px;
+}
+
+.item-7{
+  padding: 5px;
+}
+
+.xizmat-malumoti-content{
+  margin-left: 100px;
+}
+
+.page-4-end-button{
+  color: white;
+  background-color: #00BAFC;
+  width: 140px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: solid 2px #00BAFC;
+  border-radius: 4px;
+}
+
+.page-4-end-button:hover{
+  background-color: #33C8FD;
+}
+
+.page-4-end-button:active{
+  background-color: #66D6FD;
+}
+
+.batafsil-link{
+  color: #00BAFC;
+}
+
+.xizmat-malumoti{
+  background-color: white;
+  padding: 25px;
+}
+
+.xizmat-malumoti-content-2{
+  margin-left: 150px;
 }
